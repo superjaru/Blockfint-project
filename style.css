@@ -1,0 +1,109 @@
+body {
+    margin: 10;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    line-height: 2.5;
+    
+}
+.container{
+    display: inline-flex;
+}
+.eachperson{
+    flex-direction: column;
+    
+}
+ul{
+    
+    border-bottom: 1px ridge grey;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.inside{
+    flex-direction: column;
+}
+.sum{
+    flex-direction: column;
+   
+}
+.gamu,.special,.alignNoi{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    
+}
+.textkon{
+    width: 500px;
+}
+
+.textmenu{
+    width: 250px;
+}
+
+/* div.headDetail { 
+    display: inline-block;
+    margin-left : auto;
+    margin-right: auto ;
+    
+ } */
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.allcost{
+    display : inline-block;
+    color: red;
+}
+
+.alignNoi,.special{
+    display: inline-flex;
+    padding : auto auto;
+}
+
+
+.special{
+    color: red;
+}
+
+#addfood,#addperson{
+    color : white;
+    background-color: dodgerblue;
+    border: none;
+    height:25px;
+}
+
+.alignNoi{
+    border: none;
+    color : red;
+    display : inline-flex;
+    font-weight: bold;
+    align-self: auto;
+    margin-left: 30px;
+}
+
+.special{
+    border: none;
+    color : red;
+    display : inline-flex;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.ok{
+    border: none;
+    color : red;
+    display : inline-flex;
+    font-weight: bold;
+    margin-right: 65px;
+}
+
+.section{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.result{
+    justify-content: flex-end;
+}
+
